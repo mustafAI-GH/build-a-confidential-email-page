@@ -1,0 +1,65 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(204, 202, 202);
+  min-height: 90vh;
+}
+
+#email {
+  padding: 50px;
+  width: 500px;
+  height: 600px;
+  margin-top: 50px;
+  border: 2px solid black;
+  box-sizing: border-box; 
+  background-color: rgb(211, 188, 188);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.8);
+  overflow: hidden;
+}
+
+#confidential {
+  margin-left: 120px;
+  margin-bottom: -10px;
+  padding: 8px 30px;
+  border: 4px solid red;
+  transform-origin: center;
+  transform: translate(11px, -10px) rotate(-22deg);
+  color: red;
+  font-size: 2.5rem;
+  font-weight: bold;
+  display: inline-block;
+  letter-spacing: 1px;
+}
+
+#top-secret {
+  margin-left: 200px;
+  margin-top: 10px;
+  padding: 10px 22px;
+  border: 4px solid red;
+  transform-origin: center;
+  transform: translate(40px, 333px) rotate(18deg);
+  color: red;
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: inline-block;
+  letter-spacing: 1px;
+}
+
+#confidential, #top-secret {
+  font-family: "Impact", "Arial Black", sans-serif;
+  text-transform: uppercase;
+  opacity: 0.9;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+  box-shadow: 0 0 4px rgba(255, 0, 0, 0.4); 
+}
+
+p {
+  font-size: 1rem;
+  font-family: "Georgia", serif;
+  line-height: 1.5;
+}
+
+.blurred {
+  filter: blur(3px);
+}
